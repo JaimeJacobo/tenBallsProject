@@ -1,0 +1,91 @@
+
+
+
+//Functions to calculate the prob. of taking only one ball
+
+calculate_K = function(){
+
+};
+
+calculate_B = function() {
+
+};
+
+calculate_R = function(){
+
+};
+
+
+//Functions to calculate the prob. of taking two balls
+
+calculate_KK = function(){
+
+};
+
+calculate_KB = function(){
+
+};
+
+calculate_KR = function(){
+    
+};
+
+calculate_BB = function() {
+
+};
+
+calculate_BR = function() {
+
+};
+
+calculate_RR = function() {
+
+};
+
+
+
+//Functions to calculate the prob. of taking three balls
+
+calculate_KKK = function() {
+
+};
+
+calculate_KKB = function() {
+
+};
+
+calculate_KKR = function() {
+
+};
+
+calculate_KBB = function(){
+
+};
+
+calculate_KBR = function(){
+
+};
+
+calculate_KRR = function(){
+    
+};
+
+calculate_BBB = function() {
+
+};
+
+calculate_BBR = function() {
+
+};
+
+calculate_BRR = function() {
+
+};
+
+calculate_RRR = function() {
+
+};
+
+
+
+

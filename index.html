@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="divInstrucciones">
+        <p id="pInstrucciones">
+            In this situation, we have a black bag. Inside this bag, we have 10 balls. 5 of them are black, 3 of them are red and the other 2 are blue ones. The objective of the game is to take, randomnly, 1, 2 or 3 balls from the bag. Then, the page will return the probability of taking out exactly what you took. This was my first project using Javascript statements, even before I learnt how to use functions. Now I have adapted it with advanced Javascript, CSS flexbox and jQuery to print it on the webpage. Hope you have fun! Or not, I don't really care.
+        </p>
+    </div>
+    <div id="divTodasLasBolas">
+        <div id="divBolasDeColores">
+            <div>
+                <button class="button blackButton pointer">
+                </button>
+                <input type="text" id="textBlackButton">
+            </div>
+            <div>
+                <button class="button blueButton pointer">
+                </button>
+                <input type="text" id="textBlueButton">
+            </div>
+            <div>
+                <button class="button redButton pointer">
+                </button>
+                <input type="text" id="textRedButton">
+            </div>
+        </div>
+
+        <div id="divBotonCalcular">
+            <button class="button calculateButton pointer">
+                <p>Calculate</p>
+            </button>
+        </div>
+
+        <div id="divResultados">
+            <p id="pResultados"></p>
+        </div>
+    </div>
+
+        
+    
+    <script src="jquery-2.1.4.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

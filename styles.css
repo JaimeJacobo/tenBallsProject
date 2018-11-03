@@ -1,0 +1,77 @@
+#divInstrucciones{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-self: center;
+}
+
+#divTodasLasBolas {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+
+#pInstrucciones {
+    display:flex;
+    border-style: solid;
+    border-width: 1px;
+    width:50vw;
+    height:25vh;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    margin: 30px 0 50px 0;
+}
+
+#divBolasDeColores {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 20vw;
+    height: 200px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.blackButton {
+    background-color: black;
+    border-radius: 50%;
+}
+
+.blueButton{
+    background-color: dodgerblue;
+    border-radius: 50%;
+}
+
+.redButton {
+    background-color: tomato;
+    border-radius: 50%;
+}
+
+.calculateButton {
+    background-color: grey;
+    border-radius: 50%;
+}
+
+.calculateButton p{
+    font-size: 15px;
+}
+
+.pointer {
+cursor: pointer;
+}
+
+#divResultados {
+    margin-left: 250px;
+}
